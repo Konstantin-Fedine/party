@@ -1,0 +1,56 @@
+<header class="app-header">
+    <div class="app-header__inner">
+        <a class="app-name" href="index.html" aria-label="App-Name Startseite">
+            App-Name
+        </a>
+
+        <form class="game-search" role="search" action="#spiele">
+            <label class="visually-hidden" for="game-search">
+                Spiele suchen
+            </label>
+
+            <input
+                id="game-search"
+                name="q"
+                type="search"
+                placeholder="Spiele suchen"
+                autocomplete="off"
+            >
+
+            <button
+                class="game-search__submit"
+                type="button"
+                aria-label="Suche öffnen"
+                aria-expanded="false"
+                aria-controls="game-search"
+            >
+                <svg
+                    class="game-search__submit-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    aria-hidden="true"
+                >
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <path d="m20 20-3.7-3.7"></path>
+                </svg>
+            </button>
+        </form>
+
+        <div class="header-actions">
+            <a
+                class="account-button"
+                href="#konto"
+                aria-label="Konto öffnen"
+            >
+                <img
+                    class="account-button__image"
+                    src="assets/profile.svg?v=2"
+                    alt="Profilbild"
+                >
+            </a>
+        </div>
+    </div>
+</header>
